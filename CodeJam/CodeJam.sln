@@ -3,8 +3,28 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "BotTrust", "BotTrust\BotTrust.fsproj", "{81448B6F-111B-4CF2-8831-92A84348B5DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GoogleCodeJam2011", "GoogleCodeJam2011", "{17F62405-5496-40A0-B0BC-5797EE1B4712}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Qualification", "Qualification", "{AF3FE096-FFC5-4A70-A35F-D9668B03971B}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81448B6F-111B-4CF2-8831-92A84348B5DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81448B6F-111B-4CF2-8831-92A84348B5DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81448B6F-111B-4CF2-8831-92A84348B5DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81448B6F-111B-4CF2-8831-92A84348B5DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AF3FE096-FFC5-4A70-A35F-D9668B03971B} = {17F62405-5496-40A0-B0BC-5797EE1B4712}
+		{81448B6F-111B-4CF2-8831-92A84348B5DB} = {AF3FE096-FFC5-4A70-A35F-D9668B03971B}
 	EndGlobalSection
 EndGlobal
